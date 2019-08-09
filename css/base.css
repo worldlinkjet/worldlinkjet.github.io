@@ -1,0 +1,96 @@
+/* Show it is fixed to the top */
+body {
+  min-height: 75rem;
+  padding-top: 3.5rem;
+}
+
+.nav-bg-wljet {
+    background-color: #a39d93 !important;
+}
+
+nav .navbar-brand {
+  padding: 0;
+  margin: -0.4em 0;
+}
+
+.navbar-nav {
+  font-weight: bold;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px rgba(37,37,37,.49);
+}
+
+.logo-area {
+  display: none;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
+  color: rgba(255, 255, 255, 1);
+}
+
+footer .container-fluid {
+  background: #081832;
+  color: #fff;
+}
+
+footer a:hover,
+footer a:active,
+footer a:focus,
+footer a {
+  color: #fff;
+  text-decoration: none !important;
+}
+
+footer .footer-copyright {
+  font-size: 0.875em;
+}
+
+@media (max-width: 768px) {
+  footer .fa-2x {
+    font-size: 1.5em;
+  }
+
+  footer .container-fluid {
+    font-size: 0.875em;
+  }
+
+  footer .footer-copyright {
+    font-size: 0.675em;
+  }
+}
+
+@media (min-width: 768px) {
+  nav .navbar-brand {
+    margin-right: 1rem;
+  }
+
+  .logo-area {
+    display: block;
+    height: 0;
+    margin: 0;
+    position: relative;
+    z-index: 4;
+  }
+
+  #logo {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 120px;
+  }
+}
+
+@media (min-width: 992px) {
+  #logo {
+    height: 157px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #logo {
+    height: 190px;
+  }
+}
