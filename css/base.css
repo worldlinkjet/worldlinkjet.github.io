@@ -18,18 +18,30 @@ nav .navbar-brand {
   text-shadow: 1px 1px 1px rgba(37,37,37,.49);
 }
 
+.featurette::before {
+  content: "";
+  display: block;
+  height: 80px; /* fixed header height*/
+  margin: -80px 0 0; /* negative fixed header height */
+}
+
+.featurette h2 {
+  margin: 2rem 0;
+}
+
 .logo-area {
   display: none;
 }
 
 .navbar-dark .navbar-nav .nav-link,
 .navbar-dark .navbar-text a {
-  color: rgba(255, 255, 255, 0.75);
+  color: rgba(255, 255, 255, 1);
 }
 
 .navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .nav-link:focus {
-  color: rgba(255, 255, 255, 1);
+  color: rgba(0, 0, 0, 1);
 }
 
 .navbar-dark .navbar-text a:focus,
@@ -42,9 +54,25 @@ nav .navbar-brand {
   text-shadow: 1px 1px 1px rgba(37,37,37,.49);
 }
 
+.carousel {
+  margin-bottom: 4rem;
+}
+
+.featurette-divider {
+  margin: 5rem 0;
+}
+
 footer .container-fluid {
   background: #081832;
   color: #fff;
+}
+
+footer .modal-content,
+footer .modal a:hover,
+footer .modal a:active,
+footer .modal a:focus,
+footer .modal a {
+  color: #333;
 }
 
 footer a:hover,
@@ -97,11 +125,5 @@ footer .footer-copyright {
 @media (min-width: 992px) {
   #logo {
     height: 157px;
-  }
-}
-
-@media (min-width: 1200px) {
-  #logo {
-    height: 190px;
   }
 }
