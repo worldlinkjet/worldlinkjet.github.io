@@ -62,6 +62,40 @@ nav .navbar-brand {
   margin: 5rem 0;
 }
 
+.jobs {
+    font-size: 0.875em;
+}
+
+.jobs h5 {
+  margin: 1rem 0;
+}
+
+.jobs li {
+  margin: 0.5rem 0;
+}
+
+#contact .carousel {
+  margin: 0.2rem 0;
+}
+
+.addr{
+  padding-top: 1em;
+  font-size: 0.875em;
+}
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:50%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
 footer .container-fluid {
   background: #081832;
   color: #fff;
