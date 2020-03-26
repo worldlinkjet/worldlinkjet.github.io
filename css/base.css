@@ -33,6 +33,11 @@ nav .navbar-brand {
   display: none;
 }
 
+.logo-wl-left {
+  float: right;
+  margin-right: 10px;
+}
+
 .navbar-dark .navbar-nav .nav-link,
 .navbar-dark .navbar-text a {
   color: rgba(255, 255, 255, 1);
