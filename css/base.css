@@ -35,7 +35,7 @@ nav .navbar-brand {
 
 .logo-wl-left {
   float: right;
-  margin-right: 10px;
+  margin: 0 5px;
 }
 
 .navbar-dark .navbar-nav .nav-link,
@@ -77,10 +77,6 @@ nav .navbar-brand {
 
 .jobs li {
   margin: 0.5rem 0;
-}
-
-#contact .carousel {
-  margin: 0.2rem 0;
 }
 
 .addr{
